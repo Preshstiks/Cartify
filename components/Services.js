@@ -4,9 +4,11 @@ const Services = () => {
     <div className="px-[3%] font-montserrat py-[70px] w-full">
       <div>
         <div className="text-center">
-          <h2 className="text-5xl font-semibold">Services we provide</h2>
+          <h2 className="sm:text-5xl text-3xl font-semibold">
+            Services we provide
+          </h2>
         </div>
-        <div className="text-center pb-[70px] px-[37%] pt-[25px]">
+        <div className="text-center pb-[70px] sm:px-[37%] px-[15%] pt-[25px]">
           <p className="text-gray-500 text-sm">
             We specialise in organising professional training courses.
           </p>

@@ -84,7 +84,7 @@ const Body = () => {
                 </div>
               </div>
             </div>
-            <div className="xmd:absolute static top-[-50px] left-[130px]">
+            <div className="xmd:absolute xmd:mb-0 mb-4 static top-[-50px] left-[130px]">
               <div>
                 <Image
                   src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
