@@ -4,7 +4,7 @@ const Background = () => {
   return (
     <div className="font-montserrat w-full">
       <div>
-        <div className="bg-background h-screen w-full bg-no-repeat bg-cover">
+        <div className="bg-background w-full bg-no-repeat bg-cover">
           <div className="md:flex px-[9.5%] block pt-[80px] md:justify-center lg:justify-between">
             <div>
               <h2 className="lg:text-[70px] md:text-[50px] sm:text-[40px] text-[40px] font-bold">
@@ -18,7 +18,7 @@ const Background = () => {
                 to get it done.
               </p>
               <div className="flex gap-8">
-                <button className="font-bold hover:bg-black text-sm sm:text-base hover:text-gray-200 py-2 px-4 sm:py-4 sm:px-6 bg-[#aaaaaa] rounded-lg">
+                <button className="font-bold hover:bg-black text-sm sm:text-base hover:text-gray-200 py-3 px-4 sm:py-4 sm:px-6 bg-[#aaaaaa] rounded-lg">
                   Get Started
                 </button>
                 <div className="flex items-center gap-3">
@@ -42,7 +42,7 @@ const Background = () => {
                 width={100}
                 height={100}
               />
-              <div className="absolute rounded-xl py-[15px] bg-white top-[320px] left-[-50px] px-[10px] flex items-center gap-3">
+              <div className="sm:absolute static rounded-xl xs:flex hidden py-[15px] sm:ml-0 ml-[4%] bg-white top-[320px] left-[-50px] px-[10px] items-center gap-3">
                 <div>
                   <Image
                     src="/hand.jpg"
@@ -55,7 +55,7 @@ const Background = () => {
                   Bringing your ideas to life.
                 </div>
               </div>
-              <div className="absolute rounded-xl lg:py-[20px] bg-white lg:top-[170px] lg:right-[-45px] md:right-[100px] md:top-[110px] md:py-[10px] md:px-[15px] lg:px-[30px] flex justify-center items-center flex-col">
+              <div className="absolute sm:rounded-xl rounded-md lg:py-[20px] bg-white lg:top-[170px] lg:right-[-45px] md:right-[100px] md:top-[110px] bottom-0 right-0 py-[10px] px-[15px] md:py-[10px] md:px-[15px] lg:px-[30px] flex justify-center items-center flex-col">
                 <h2 className="lg:text-5xl md:text-3xl font-extrabold">40%</h2>
                 <span className="text-gray-500 text-center text-sm">
                   Market
