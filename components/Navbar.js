@@ -3,9 +3,9 @@ const Navbar = () => {
   return (
     <div className="font-montserrat flex justify-between items-center px-[10%] py-4">
       <div>
-        <h2 className="font-bold text-2xl cursor-pointer">Cranify &trade;</h2>
+        <h2 className="font-bold text-2xl cursor-pointer">Cartify &trade;</h2>
       </div>
-      <div className="space-x-8 flex">
+      <div className="gap-4 hidden md:flex">
         <span className="text-sm flex items-center gap-2 cursor-pointer">
           Product <IoIosArrowDown />
         </span>

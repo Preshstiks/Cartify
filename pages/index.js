@@ -5,7 +5,7 @@ import Services from "@/components/Services";
 
 const Home = () => {
   return (
-    <div className="bg-[#eeeeee]">
+    <div className="bg-[#eeeeee] w-full">
       <Navbar />
       <Background />
       <Body />

@@ -1,7 +1,7 @@
 import { BsArrowRight } from "react-icons/bs";
 const Services = () => {
   return (
-    <div className="px-[3%] font-montserrat py-[70px]">
+    <div className="px-[3%] font-montserrat py-[70px] w-full">
       <div>
         <div className="text-center">
           <h2 className="text-5xl font-semibold">Services we provide</h2>
@@ -11,7 +11,7 @@ const Services = () => {
             We specialise in organising professional training courses.
           </p>
         </div>
-        <div className="grid px-[6%] grid-cols-3 gap-3">
+        <div className="grid px-[6%] sm:grid-cols-2 lg:grid-cols-3 gap-3">
           <div className="bg-orange-200 p-7 rounded-3xl">
             <div>
               <h2 className="font-bold text-lg pb-4">
