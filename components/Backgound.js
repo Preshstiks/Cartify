@@ -55,7 +55,7 @@ const Background = () => {
                   Bringing your ideas to life.
                 </div>
               </div>
-              <div className="absolute sm:rounded-xl rounded-md lg:py-[20px] bg-white lg:top-[170px] lg:right-[-45px] md:right-[100px] md:top-[110px] bottom-0 right-0 py-[10px] px-[15px] md:py-[10px] md:px-[15px] lg:px-[30px] flex justify-center items-center flex-col">
+              <div className="absolute sm:rounded-xl rounded-md lg:py-[20px] lg:h-[100px] bg-white lg:top-[170px] lg:right-[-45px] md:right-[100px] md:top-[110px] bottom-0 right-0 py-[10px] px-[15px] md:py-[10px] md:px-[15px] lg:px-[30px] flex justify-center items-center flex-col">
                 <h2 className="lg:text-5xl md:text-3xl font-extrabold">40%</h2>
                 <span className="text-gray-500 text-center text-sm">
                   Market
