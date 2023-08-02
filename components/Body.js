@@ -90,7 +90,7 @@ const Body = () => {
                   src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
                   width={250}
                   height={250}
-                  className="rounded-2xl xmd:h-[250px] xmd:w-[250px]"
+                  className="rounded-2xl xmd:h-[350px] xmd:w-[250px]"
                 />
               </div>
             </div>
